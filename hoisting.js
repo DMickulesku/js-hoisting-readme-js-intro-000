@@ -1,3 +1,4 @@
+
 function callMe() {
   console.log("I just met you...");
   console.log("and this is crazy..");
@@ -9,12 +10,13 @@ function callMe() {
 
 
 function crazy() {
-  // fix the code in here:
-  thisIsCrazy();
-
   var thisIsCrazy = function (){
     console.log("hey!!!")
   }
+  // fix the code in here:
+  thisIsCrazy();
+
+
 }
 
 function sayMyName() {
